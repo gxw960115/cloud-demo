@@ -12,9 +12,9 @@ spring:
     nacos:
       server-addr: localhost:8848
       discovery:
-        ephemeral: true
-        cluster-name: HZ
-        namespace: 7094422b-94ff-418f-810b-3f99e9beb3cf
+#        ephemeral: true
+#        cluster-name: HZ
+#        namespace: 7094422b-94ff-418f-810b-3f99e9beb3cf
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
